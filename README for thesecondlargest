@@ -1,1 +1,30 @@
+# Second Largest Element Finder in C++
 
+## Overview
+This project implements an algorithm to find the second largest element in an array of integers using C++. The solution uses a single pass through the array to identify both the largest and second largest elements efficiently.
+
+## Prerequisites
+- C++ compiler (e.g., g++)
+- Basic understanding of C++ programming
+
+## File Structure
+- `second_largest.cpp`: Contains the complete implementation
+
+## Code Description
+The program consists of two main parts:
+
+1. `findSecondLargest` function:
+   - Takes an array and its size as parameters
+   - Returns the second largest element or -1 if none exists
+   - Uses two variables to track largest and second largest elements
+   - Time complexity: O(n)
+   - Space complexity: O(1)
+
+2. `main` function:
+   - Demonstrates usage with a sample array
+   - Prints the result
+
+## Usage
+1. Compile the code:
+```bash
+g++ second_largest.cpp -o second_largest
